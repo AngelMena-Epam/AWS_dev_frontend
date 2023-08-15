@@ -22,11 +22,9 @@ provider:
 
 package:
   individually: true
-  include:
-    - client/dist/**
-  exclude:
-    - node_modules/**
-    - ./**
+  patterns:
+    - "client/dist/**"
+    - "!node_modules/**"
 
 resources:
   Resources:
