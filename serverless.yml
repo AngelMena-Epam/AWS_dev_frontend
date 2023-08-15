@@ -1,5 +1,5 @@
 org: angelmenam
-app: aws-shake-shack-frontend
+app: aws-shake-shack
 service: aws-shake-shack-frontend-t3
 frameworkVersion: "3"
 
