@@ -1,6 +1,6 @@
 org: angelmenam
 app: aws-shake-shack
-service: aws-shake-shack-frontend-t3
+service: aws-shake-shack-frontend-t4
 frameworkVersion: "3"
 
 plugins:
@@ -9,7 +9,7 @@ plugins:
 
 custom:
   client:
-    bucketName: aws-shake-shack-frontend-t3
+    bucketName: aws-shake-shack-frontend-t4
     indexDocument: index.html
     manageResources: true
     distributionFolder: client/dist
